@@ -14,6 +14,15 @@ inat <- read_csv("data/inat-observations.csv")
 
 ```
 
+
+```{r}
+map_locations <- st_as_sf(inat, coords = c("longitude", "latitude"), crs = 4326)
+ggplot() +
+  geom_sf(data = map_locations)
+```
+
+
+
 ```{r}
 map_data <- inat %>% 
   st_as_sf(coords = c("longitude", "latitude"),   crs = 4326, remove=FALSE) 
