@@ -4,14 +4,14 @@ teaching: 10
 exercises: 2
 ---
 
-```{r, echo=FALSE}
+```{r, echo=FALSE, message=FALSE}
 library(mapview)
-library(tidyverse)
+library(ggplot2)
 library(sf)
 ```
 
 ```{r, message=FALSE}
-inat <- read_csv("data/inat-observations.csv")
+inat <- read.csv("data/inat-observations.csv")
 
 ```
 
