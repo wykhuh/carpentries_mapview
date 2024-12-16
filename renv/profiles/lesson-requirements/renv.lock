@@ -1,6 +1,6 @@
 {
   "R": {
-    "Version": "4.3.2",
+    "Version": "4.4.2",
     "Repositories": [
       {
         "Name": "carpentries",
@@ -26,18 +26,18 @@
     },
     "KernSmooth": {
       "Package": "KernSmooth",
-      "Version": "2.23-22",
+      "Version": "2.23-24",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R",
         "stats"
       ],
-      "Hash": "2fecebc3047322fa5930f74fae5de70f"
+      "Hash": "9f33a1ee37bbe8919eb2ec4b9f2473a5"
     },
     "MASS": {
       "Package": "MASS",
-      "Version": "7.3-60",
+      "Version": "7.3-61",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -48,11 +48,11 @@
         "stats",
         "utils"
       ],
-      "Hash": "a56a6365b3fa73293ea8d084be0d9bb0"
+      "Hash": "0cafd6f0500e5deba33be22c46bf6055"
     },
     "Matrix": {
       "Package": "Matrix",
-      "Version": "1.6-1.1",
+      "Version": "1.7-1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -65,7 +65,7 @@
         "stats",
         "utils"
       ],
-      "Hash": "1a00d4828f33a9d690806e98bd17150c"
+      "Hash": "5122bb14d8736372411f955e1b16bc8a"
     },
     "R6": {
       "Package": "R6",
@@ -798,7 +798,10 @@
       "Package": "httpuv",
       "Version": "1.6.15",
       "Source": "Repository",
-      "Repository": "RSPM",
+      "Repository": "https://carpentries.r-universe.dev",
+      "RemoteUrl": "https://github.com/rstudio/httpuv",
+      "RemoteRef": "v1.6.15",
+      "RemoteSha": "19631930c178ee7ffb5e712eefc9b08d94db23f4",
       "Requirements": [
         "R",
         "R6",
@@ -918,7 +921,7 @@
     },
     "lattice": {
       "Package": "lattice",
-      "Version": "0.21-9",
+      "Version": "0.22-6",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -929,7 +932,7 @@
         "stats",
         "utils"
       ],
-      "Hash": "5558c61e0136e247252f5f952cdaad6a"
+      "Hash": "cc5ac1ba4c238c7ca9fa6a87ca11a7e2"
     },
     "lazyeval": {
       "Package": "lazyeval",
@@ -1086,7 +1089,7 @@
     },
     "mgcv": {
       "Package": "mgcv",
-      "Version": "1.9-0",
+      "Version": "1.9-1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -1099,7 +1102,7 @@
         "stats",
         "utils"
       ],
-      "Hash": "086028ca0460d0c368028d3bda58f31b"
+      "Hash": "110ee9d83b496279960e162ac97764ce"
     },
     "mime": {
       "Package": "mime",
@@ -1142,7 +1145,7 @@
     },
     "nlme": {
       "Package": "nlme",
-      "Version": "3.1-163",
+      "Version": "3.1-166",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -1152,7 +1155,7 @@
         "stats",
         "utils"
       ],
-      "Hash": "8d1938040a05566f4f7a14af4feadd6b"
+      "Hash": "ccbb8846be320b627e6aa2b4616a2ded"
     },
     "openssl": {
       "Package": "openssl",
@@ -1307,7 +1310,10 @@
       "Package": "ragg",
       "Version": "1.3.3",
       "Source": "Repository",
-      "Repository": "carpentries",
+      "Repository": "https://carpentries.r-universe.dev",
+      "RemoteUrl": "https://github.com/r-lib/ragg",
+      "RemoteRef": "v1.3.3",
+      "RemoteSha": "6f2279ae8cd0e0d7e9d0e1ede2b742666f9f1d49",
       "Requirements": [
         "systemfonts",
         "textshaping"
@@ -1721,7 +1727,10 @@
       "Package": "textshaping",
       "Version": "0.4.1",
       "Source": "Repository",
-      "Repository": "carpentries",
+      "Repository": "https://carpentries.r-universe.dev",
+      "RemoteUrl": "https://github.com/r-lib/textshaping",
+      "RemoteRef": "v0.4.1",
+      "RemoteSha": "44178e8f68df1df4e932aecaec2672d1eeb89149",
       "Requirements": [
         "R",
         "cpp11",
@@ -1980,7 +1989,10 @@
       "Package": "xml2",
       "Version": "1.3.6",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "https://carpentries.r-universe.dev",
+      "RemoteUrl": "https://github.com/r-lib/xml2",
+      "RemoteRef": "v1.3.6",
+      "RemoteSha": "6a1b5e8fd44601faffcd5c56b6837bbf6ee41322",
       "Requirements": [
         "R",
         "cli",
