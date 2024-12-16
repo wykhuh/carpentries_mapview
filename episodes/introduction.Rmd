@@ -3,13 +3,14 @@ title: "Using mapview"
 teaching: 10
 exercises: 2
 ---
-```{r}
+
+```{r, echo=FALSE}
 library(mapview)
 library(tidyverse)
 library(sf)
 ```
 
-```{r}
+```{r, message=FALSE}
 inat <- read_csv("data/inat-observations.csv")
 
 ```
